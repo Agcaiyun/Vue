@@ -7,7 +7,7 @@
       <slot name="title" />
     </div>
     <div>
-      <slot name="item" v-bind="{value: 'test', key: 'key'}"/>
+      <slot name="item" :value="'value'" :test="'test'" />
     </div>
   </div>
 </template>

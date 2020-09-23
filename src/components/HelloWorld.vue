@@ -9,8 +9,8 @@
       <template v-slot:title>
         title
       </template>
-      <template v-slot:item="props">
-        {{props.value}}---{{props.key}}
+      <template v-slot:item="aaa">
+        {{aaa.value}} --- {{aaa.test}}
       </template>
     </Children>
   </div>
